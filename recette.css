@@ -1,13 +1,136 @@
-* {
-    box-sizing: border-box;
+body {
+  font-family: optima;
+  background-color: #e1e1e1;
 }
-.column {
-    float: left;
-    width: 50%;
+
+  #restaurant{
+    background-image: url(file:///home/step84/T%C3%A9l%C3%A9chargements/resto.jpeg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
   }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
+header menu {
+  position: relative;
+  width: 1024px;
+  left: 50%;
+  padding: 0px;
+  bottom: 120px;
+}
+
+header menu ul a {
+  color: #000000;
+  text-decoration: none;
   
+}
+
+menu {
+    padding-inline-start: 40px;
+    color: black;
+}
+.menu {
+  width: 100%;
+  height: 100%;
+  font-family: "SolidoCondensedBook";
+  font-size: 16pt;
+  color: #000000;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: -300px;
+
+}
+  .column {
+    float: left;
+    width: 48%;
+    padding: 1%; 
+}
+.descriptif {
+  text-align: justify;
+  margin-right: 850px;
+  line-height: 18px;
+  margin-bottom: 10px;
+  letter-spacing: 2.5px;
+  margin-left: 50px;
+  }
+.plat {
+  font-size: 15px;
+    text-transform: uppercase;
+    line-height: 70px;  
+    margin-top: 50px;
+    margin-left: 50px;
+}
+  .repas {
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 70px;
+    margin-left: 1000px;  
+    margin-top: -220px;
+  }
+  .photo {
+    float: right;
+  margin-top: 5px;
+  }
+  .prix {
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 70px;
+    margin-left: 250px;  
+    margin-top: 200px;
+  }
+  .formule {
+    line-height: 150px;
+    margin-left: 50px;
+    font-style: italic;
+  }
+  a.bouton1 {
+    padding: 10px 30px; 
+    background: black; 
+    color: white; 
+    margin-left: 290px;
+    bottom: 30px;
+    text-decoration: none;
+    margin-bottom: -400px;
+    position: absolute;
+    }
+    a.bouton1:hover {
+    background:gray; 
+    }
+
+footer {
+  padding: 20px 40px;
+  background:#d5dddb ;
+  color: black;
+  margin-top: 300px;
+}
+.renseignement {
+  text-align: center;
+  font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.ouverture{
+  font-size: 14px;
+  color: #1a1a1a;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+a.bouton3 {
+  padding: 10px 30px; 
+  background: black; 
+  color: white; 
+  margin-left: 29px;
+  bottom: 30px;
+  text-decoration: none;
+  margin-bottom: -1090px;
+  position: absolute;
+  }
+  a.bouton3:hover {
+    background:gray;
+  }
+  .map {
+    float: right;
+    margin-top: -250px;
+  }

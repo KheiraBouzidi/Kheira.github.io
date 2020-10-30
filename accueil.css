@@ -1,81 +1,155 @@
-.logo{
-  ;
-}
 body {
-  background-color: rgb(41, 41, 41);
   font-family: optima;
-  background-image: url("file:///home/step84/T%C3%A9l%C3%A9chargements/fond.jpeg");
+  background-color: #e1e1e1;
 }
-body {
-  margin: 0;
-}
-html, body, p{
-  margin:0;
-  padding:0;
-}
-header {
-  padding: 25px 0px;
-  background-color:black;
-  text-align: center;
-}
-.centercolumn{
-  width: 930px;
-  background-color: white;
-  margin: auto;
-  padding:25px;
+
+  #restaurant{
+    background-image: url(file:///home/step84/T%C3%A9l%C3%A9chargements/resto.jpeg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
   }
+
+header menu {
+  position: relative;
+  width: 1024px;
+  left: 50%;
+  padding: 0px;
+  bottom: 120px;
 }
-h1 {
-  margin: 0;
-}
-h1{
-  color: black;
-  text-align: center; 
-}
-  .menu {
-    background-color: #14A3B2 ;
-}
-.nav {
-  background-color: black;
-  overflow: hidden;
-}
-.nav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+
+header menu ul a {
+  color: #000000;
   text-decoration: none;
-  font-size: 17px;
-  font-family: optima;
+  
 }
-.nav a:hover {
-  background-color: #ddd;
-  color: black;
+
+menu {
+    padding-inline-start: 40px;
+    color: black;
 }
-.nav a.active {
-  background-color: #c44728;
-  color: white;
+.menu {
+  width: 100%;
+  height: 100%;
+  font-family: "SolidoCondensedBook";
+  font-size: 16pt;
+  color: #000000;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-left: -300px;
+  text-shadow: 4px 4px white;
 }
-  .column {
-    float: left;
-    width: 48%;
-    padding: 1%; 
+.Plat{
+  vertical-align: inherit;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 70px;
+  margin-left: 50px;
+  
 }
-.restaurant {
-  max-width: 100%;
-  height: auto;
-  width:600px;
-  border:40px solid black;
+.slogan {
+text-align: justify;
+margin-right: 850px;
+line-height: 18px;
+margin-bottom: 10px;
+letter-spacing: 2.5px;
+margin-left: 50px;
+}
+.repas {
+  float: right;
+  margin-top: -205px;
 
 }
-  
-body {
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-}
-h2 { 
+a.bouton1 {
+  padding: 10px 30px; 
+  background: black; 
+  color: white; 
+  margin-left: -450px;
+  bottom: 30px;
+  text-decoration: none;
+  margin-bottom: -400px;
+  position: absolute;
+  }
+  a.bouton1:hover {
+  background:gray; 
+  }
+  .assiette {
+    float: left;
+    position: relative;
+    top: 500px;
+  }
+    .chef{
+      vertical-align: inherit;
+      font-size: 15px;
+      text-transform: uppercase;
+      line-height: 70px;
+     margin-top: 550px;
+     margin-left: 100px;
+      
+    }
+  .texte {
+    text-align: justify;
+    margin-left: 850px;
+    line-height: 18px;
+    margin-top: 100px;
+    letter-spacing: 2.5px;
+    margin-right: 50px; 
+  }
+  a.bouton2 {
+    padding: 10px 30px; 
+    background: black; 
+    color: white; 
+    margin-left: 10px;
+    bottom: 30px;
+    text-decoration: none;
+    margin-bottom: -400px;
+    position: absolute;
+    margin-bottom: -1200px;
+    }
+    a.bouton2:hover {
+    background:gray; 
+    }
+    footer {
+      background: #d5dddb ;
+      color: black;
+      text-decoration: none;
+      margin-top: 400px;
+      width: 250%;
+      margin-left: -850px;
+    }
+    .renseignement {
+      text-align: center;
+      font-size: 15px;
+      text-transform: uppercase;
+      font-weight: bolder;
+    }
+    .ouverture{
+      font-size: 14px;
+      color: #1a1a1a;
+      line-height: 20px;
+      letter-spacing: 1px;
+    }
+    a.bouton3 {
+      padding: 10px 30px; 
+      background: black; 
+      color: white; 
+      margin-left: 10px;
+      bottom: 30px;
+      text-decoration: none;
+      position: absolute;
+      margin-bottom: -1650px;
+      }
+      a.bouton3:hover {
+      background:gray; 
+      }
+      .map {
+        float: right;
+        margin-top: -250px;
+      }
+      .fin {
+      text-decoration: none;
+      }
+     
     
-    color: black;
-    text-align: center;
-} 
